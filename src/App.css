@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #fff;
+}
+h2{
+  background-color: lightgreen;
+  padding: 15px;
+  font-family: sans-serif;
+  color: #000;
+}
+h3{
+  padding-bottom: 10px;
+  color: crimson;
+}  
+.app_form{
+  padding: 10px;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  z-index: 1;
+   /* display: flex;
+  flex-direction: row; */
+  background-color: #fff; 
+  margin: 0px;
+}
+/* #e9e9eb */
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app_input{
+  flex: 1;
+}
+.app_iconButton{
+  flex: 0;
+  margin: 10px;
+}
+.footer{
+  bottom: 0px;
+  position: fixed;
+  text-align: center;
+  /* background-color: #fff; */
+  /* padding: auto; */
+  /* margin: 20px; */
+  padding: 15px;
+  background-color:chocolate;
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+}
+.top{
+  width: 500px;
+  min-width: 390px;
+  height: 600px;
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 15px #e74c3c;
+}
+.chatlog{
+  padding: 10px;
+  width: 100%;
+  height: 450px;
+  background: #fafafa;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+.chatlog ::-webkit-scrollbar {
+  width: 10px;
+}
+.chatlog ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1) ;
+}
+@media screen and (max-width: 500px) {
+  .top {
+  float: none;
+  display: block;
+  }
+}
